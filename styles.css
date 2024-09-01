@@ -1,0 +1,47 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #0B1842
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+     background-color: var(--cor-de-fundo);
+      color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/disney.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteiner{
+    height: 100vh
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
